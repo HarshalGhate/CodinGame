@@ -4,22 +4,22 @@ A contribution by BVSTIEN
  	Goal
 
 Print a checklist of the given numbers where every odd number is ticked.
-Input
+Input:
     Line 1: The number count of integers to check.
     Line 2: count integers n to check, separated by a space.
-Output
+Output:
     count lines (one for each value of n):
     "[ ] n" if n is even,
     "[x] n" if n is odd.
 
-Constraints
+Constraints:
     0 < count < 100
     -100 < n < 100
-Example
-Input
+Example:
+Input:
 5
 1 2 3 4 5
-Output
+Output:
 [x] 1
 [ ] 2
 [x] 3
@@ -32,10 +32,6 @@ Output
 #include <string.h>
 #include <stdbool.h>
 
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
 void Display(int *Arr,int iSize)
 {
     int i=0;
