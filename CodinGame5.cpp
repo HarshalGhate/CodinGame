@@ -28,20 +28,11 @@ Expected output : y
 
 using namespace std;
 
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
-
 void Display(char *str)
 {
     while(*str!='\0')
     {
-        if((*str=='a')||(*str=='e')||(*str=='i')||(*str=='o')||(*str=='u')||(*str=='A')||(*str=='E')||(*str=='I')||(*str=='O')||(*str=='U'))
-        {
-            
-        }
-        else 
+        if((*str!='a')&&(*str!='e')&&(*str!='i')&&(*str!='o')&&(*str!='u')&&(*str!='A')&&(*str!='E')&&(*str!='I')&&(*str!='O')&&(*str!='U'))
         {
             cout<<*str;
         }
